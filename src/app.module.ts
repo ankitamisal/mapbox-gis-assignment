@@ -19,7 +19,7 @@ import { MapboxModule } from './mapbox/mapbox.module';
       autoLoadEntities: true,
       synchronize: true,
       // logging: true,
-      // entities: ['dist/src/**/*.entity.js']
+      entities: ['dist/src/**/*.entity{.js,.ts}'],
     }),
   ],
   controllers: [AppController],

@@ -7,10 +7,10 @@ export class geoMap {
   id: number;
 
   @Column()
-  latitude: string;
+  lat: string;
 
   @Column()
-  longitutde: string;
+  lon: string;
 
   @Column()
   cityName: string;
